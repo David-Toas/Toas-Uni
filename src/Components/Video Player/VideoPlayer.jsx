@@ -8,7 +8,7 @@ const VideoPlayer = ({playState, setPlayState}) => {
 
 const player = useRef(null);
 
-const closePlayer = ()=>{
+const closePlayer = (e)=>{
     // eslint-disable-next-line no-undef
     if(e.target === player.current){
         setPlayState(false);
