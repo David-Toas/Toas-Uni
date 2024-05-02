@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import "./VideoPlayer.css";
-import video from "../../assets/student.mp4";
+import video from "../../assets/students.mp4";
 
 // eslint-disable-next-line react/prop-types
 const VideoPlayer = ({playState, setPlayState}) => {
